@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<!-- <appender name="STASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender"> 
+		<destination>${LOGSTASH_DESTINATION}</destination> <encoder class="net.logstash.logback.encoder.LogstashEncoder"/> 
+		</appender> -->
+	<appender name="CONSOLE"
+		class="ch.qos.logback.core.ConsoleAppender">
+		<encoder charset="UTF-8">
+			<Pattern>
+				[%d{yyyy-MM-dd
+				HH:mm:ss.SSS}]-[%X{X-B3-TraceId}]-[%r]-[%t]-[%p]-[%C.%M]-[%line]%.-10000m%n
+			</Pattern>
+		</encoder>
+	</appender>
+	<root level="INFO">
+		<appender-ref ref="CONSOLE" />
+		<!-- <appender-ref ref="STASH"/> -->
+	</root>
+</configuration>
