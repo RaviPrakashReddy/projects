@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/Services-Repository/!svn/ver/60312/FORTE/forte-kafka-listener-web/src/main/java/com/candela/forte/kafka/listener/web/services
+END
+RechargeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/Services-Repository/!svn/ver/60670/FORTE/forte-kafka-listener-web/src/main/java/com/candela/forte/kafka/listener/web/services/RechargeService.java
+END
+SMSService.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/Services-Repository/!svn/ver/60388/FORTE/forte-kafka-listener-web/src/main/java/com/candela/forte/kafka/listener/web/services/SMSService.java
+END
+CustomerDetailService.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/Services-Repository/!svn/ver/60840/FORTE/forte-kafka-listener-web/src/main/java/com/candela/forte/kafka/listener/web/services/CustomerDetailService.java
+END
+MessageKafkaListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/Services-Repository/!svn/ver/60262/FORTE/forte-kafka-listener-web/src/main/java/com/candela/forte/kafka/listener/web/services/MessageKafkaListener.java
+END

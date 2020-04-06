@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Services-Repository/!svn/ver/60386/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/config
+END
+ForteConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/Services-Repository/!svn/ver/60531/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/config/ForteConstants.java
+END
+FORTEDataSourceConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/Services-Repository/!svn/ver/60174/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/config/FORTEDataSourceConfig.java
+END

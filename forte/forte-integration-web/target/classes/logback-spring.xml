@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <springProperty scope="context" name="LOG_PATH" source="log.path" defaultValue="C:\Candelalabs\NBMessageProducer\Logs"/>
+
+    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <Pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n  </Pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>DEBUG</level>
+            <onMatch>ACCEPT</onMatch>
+        </filter>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+        </filter>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>TRACE</level>
+            <onMatch>ACCEPT</onMatch>
+        </filter>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>WARN</level>
+            <onMatch>ACCEPT</onMatch>
+        </filter>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+        </filter>
+    </appender>
+       
+    <appender name="FileThread" class="ch.qos.logback.classic.sift.SiftingAppender">
+		<!-- This is MDC value -->
+		<!-- We will assign a value to 'logFileName' via Java code -->
+		<discriminator>
+			<key>logFileName</key>
+			<defaultValue>forte-integration-web</defaultValue>
+		</discriminator>
+		<sift>
+			  <!-- A standard RollingFileAppender, the log file is based on 'logFileName' at runtime  -->
+			    <appender name="FILE-${logFileName}" 	class="ch.qos.logback.core.rolling.RollingFileAppender">
+					<file>${LOG_PATH}/${logFileName}.log</file>
+					<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+						<Pattern>%d{yyyy-MM-dd HH:mm:ss} %mdc [%thread] %level %logger{35} - %msg%n	</Pattern>
+					</encoder>
+		
+					<rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+						<FileNamePattern>${LOG_PATH}/${logFileName}.%i.log.zip </FileNamePattern>
+						<MinIndex>1</MinIndex>
+						<MaxIndex>10</MaxIndex>
+					</rollingPolicy>
+		
+					<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+						<MaxFileSize>10MB</MaxFileSize>
+					</triggeringPolicy>
+			   </appender>
+		</sift>
+	</appender>
+
+  <appender name="Async-FileThread4All" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="FileThread"/>
+    </appender>
+    <springProfile name="local">
+        <logger name="com.candela" level="ALL" additivity="false">
+            <appender-ref ref="consoleAppender"/>
+            <appender-ref ref="Async-FileThread4All"/>
+        </logger>
+        <logger name="org.springframework" level="ERROR" additivity="false">
+         <appender-ref ref="consoleAppender"/>
+            <appender-ref ref="Async-FileThread4All"/>
+        </logger>
+         <logger name="org" level="ERROR" additivity="false">
+         	<appender-ref ref="consoleAppender"/>
+            <appender-ref ref="Async-FileThread4All"/>
+        </logger>
+        <logger name="com.zaxxer.hikari" level="ERROR" additivity="false">
+         	<appender-ref ref="consoleAppender"/>
+            <appender-ref ref="Async-FileThread4All"/>
+        </logger>
+         <logger name="springfox.documentation" level="ERROR" additivity="false">
+         	<appender-ref ref="consoleAppender"/>
+            <appender-ref ref="Async-FileThread4All"/>
+        </logger>
+        
+        
+    </springProfile>
+
+    <springProfile name="dev">
+        <logger name="com.candela" level="ALL" additivity="false">
+            <appender-ref ref="consoleAppender"/>
+            <appender-ref ref="Async-FileThread4All"/>
+        </logger>
+    </springProfile>
+
+    <springProfile name="test,prod,sit,uat">
+        <logger name="com.candela.gelm" level="DEBUG" additivity="false">
+            <appender-ref ref="consoleAppender"/>
+            <appender-ref ref="Async-FileThread4All"/>
+        </logger>
+    </springProfile>
+    
+    <root>
+        <level value="INFO"/>
+        <appender-ref ref="consoleAppender"/>
+    </root>
+    
+</configuration>

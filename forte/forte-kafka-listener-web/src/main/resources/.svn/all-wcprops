@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Services-Repository/!svn/ver/60487/FORTE/forte-kafka-listener-web/src/main/resources
+END
+application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Services-Repository/!svn/ver/60487/FORTE/forte-kafka-listener-web/src/main/resources/application.properties
+END
+application-local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Services-Repository/!svn/ver/60487/FORTE/forte-kafka-listener-web/src/main/resources/application-local.properties
+END
+logback-spring.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Services-Repository/!svn/ver/60487/FORTE/forte-kafka-listener-web/src/main/resources/logback-spring.xml
+END
+application-local.yml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Services-Repository/!svn/ver/60487/FORTE/forte-kafka-listener-web/src/main/resources/application-local.yml
+END
+application.yml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Services-Repository/!svn/ver/60487/FORTE/forte-kafka-listener-web/src/main/resources/application.yml
+END

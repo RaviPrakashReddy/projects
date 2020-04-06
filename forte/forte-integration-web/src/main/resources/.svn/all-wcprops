@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Services-Repository/!svn/ver/60387/FORTE/forte-integration-web/src/main/resources
+END
+application.properties
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Services-Repository/!svn/ver/60486/FORTE/forte-integration-web/src/main/resources/application.properties
+END
+logback-spring.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Services-Repository/!svn/ver/60190/FORTE/forte-integration-web/src/main/resources/logback-spring.xml
+END
+application.yml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Services-Repository/!svn/ver/60387/FORTE/forte-integration-web/src/main/resources/application.yml
+END

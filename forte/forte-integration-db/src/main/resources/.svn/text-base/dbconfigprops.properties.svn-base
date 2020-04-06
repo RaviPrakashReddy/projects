@@ -1,0 +1,31 @@
+# ===============================
+# = FORTE DATA SOURCE
+# ===============================
+# Set here configurations for the database connection
+forte.datasource.driver-class-name=org.postgresql.Driver
+forte.datasource.jdbcUrl=jdbc:postgresql://13.126.128.126:5432/fortedb
+forte.datasource.username=fortedbuser
+forte.datasource.password=pass@123$
+forte.datasource.testWhileIdle = true
+forte.datasource.timeBetweenEvictionRunsMillis = 3600000
+forte.datasource.test-on-borrow=true
+forte.datasource.validationQuery=SELECT 1
+forte.hibernate.jpa.properties.hibernate.default_schema=forte
+forte.jpa.hibernate.ddl-auto=update
+forte.datasource.jndi.name=jdbc/EWFDB
+forte.datasource.jndi.use=No
+# ===============================
+# = FORTE JPA / HIBERNATE
+# ===============================
+forte.jpa.show-sql=true
+forte.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+forte.jpa.database-platform =org.hibernate.dialect.PostgreSQLDialect
+forte.jpa.properties.hibernate.default_schema=forte
+
+# ===============================
+# = FORTE Ehcache Configuration
+# ===============================
+forte.datasource.cache.cache-names=forteMasterDataCache
+forte.datasource.cache.type=ehcache
+#forte.datasource.cache.ehcache.config=classpath:ehcache.xml 
+

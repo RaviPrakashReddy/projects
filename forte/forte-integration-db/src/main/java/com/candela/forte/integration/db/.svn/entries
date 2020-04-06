@@ -1,0 +1,46 @@
+10
+
+dir
+60386
+http://my.candelalabs.io/svn/Services-Repository/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db
+http://my.candelalabs.io/svn/Services-Repository
+
+
+
+2020-02-05T11:51:43.882098Z
+60386
+satyanarayana.pujari
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2105c973-8c75-432c-85bb-54d0653eda56
+
+config
+dir
+
+entity
+dir
+
+model
+dir
+
+repository
+dir
+
+service
+dir
+
+util
+dir
+

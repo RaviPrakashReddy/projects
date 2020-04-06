@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/Services-Repository/!svn/ver/60170/FORTE/forte-kafka-listener-web/src/main/java/com/candela/forte/kafka/listener/web
+END
+ServletInitializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/Services-Repository/!svn/ver/60170/FORTE/forte-kafka-listener-web/src/main/java/com/candela/forte/kafka/listener/web/ServletInitializer.java
+END
+ForteKafkaListenerWebApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/Services-Repository/!svn/ver/60202/FORTE/forte-kafka-listener-web/src/main/java/com/candela/forte/kafka/listener/web/ForteKafkaListenerWebApplication.java
+END

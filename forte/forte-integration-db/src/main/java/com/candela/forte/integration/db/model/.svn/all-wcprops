@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/Services-Repository/!svn/ver/60505/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/model
+END
+CustomerInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Services-Repository/!svn/ver/60241/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/model/CustomerInfo.java
+END
+CallCenterProcessInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/Services-Repository/!svn/ver/60505/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/model/CallCenterProcessInfo.java
+END
+ProcessData.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/Services-Repository/!svn/ver/60505/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/model/ProcessData.java
+END
+ProcessVariables.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/Services-Repository/!svn/ver/60505/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/model/ProcessVariables.java
+END
+CustomerUpdateinfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/Services-Repository/!svn/ver/60241/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/model/CustomerUpdateinfo.java
+END
+RestResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Services-Repository/!svn/ver/60241/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/model/RestResponse.java
+END
+RechargeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/Services-Repository/!svn/ver/60252/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/model/RechargeInfo.java
+END

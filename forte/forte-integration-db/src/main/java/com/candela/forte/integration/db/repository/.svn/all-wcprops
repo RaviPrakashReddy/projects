@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/Services-Repository/!svn/ver/60839/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/repository
+END
+SmsFollowupDetailRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/Services-Repository/!svn/ver/60761/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/repository/SmsFollowupDetailRepository.java
+END
+MobilemasterRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/Services-Repository/!svn/ver/60839/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/repository/MobilemasterRepository.java
+END
+SystemPropertyRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/Services-Repository/!svn/ver/60310/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/repository/SystemPropertyRepository.java
+END
+MonthlyRechargeSummaryRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/Services-Repository/!svn/ver/60681/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/repository/MonthlyRechargeSummaryRepository.java
+END
+InsurecovermasterRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/Services-Repository/!svn/ver/60181/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/repository/InsurecovermasterRepository.java
+END
+CustomerDetailRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/Services-Repository/!svn/ver/60266/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/repository/CustomerDetailRepository.java
+END
+RechargedetailRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/Services-Repository/!svn/ver/60668/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/repository/RechargedetailRepository.java
+END
+PackagemasterRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/Services-Repository/!svn/ver/60181/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/repository/PackagemasterRepository.java
+END
+ClaimsDetailRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/Services-Repository/!svn/ver/60761/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/repository/ClaimsDetailRepository.java
+END

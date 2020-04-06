@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Services-Repository/!svn/ver/60414/FORTE/forte-scheduler-web/src/main/java/com/candela/forte/scheduler/services
+END
+SMSService.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/Services-Repository/!svn/ver/60570/FORTE/forte-scheduler-web/src/main/java/com/candela/forte/scheduler/services/SMSService.java
+END
+RechargeAndSMSService.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/Services-Repository/!svn/ver/60764/FORTE/forte-scheduler-web/src/main/java/com/candela/forte/scheduler/services/RechargeAndSMSService.java
+END
+CustomerReminderService.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/Services-Repository/!svn/ver/60764/FORTE/forte-scheduler-web/src/main/java/com/candela/forte/scheduler/services/CustomerReminderService.java
+END

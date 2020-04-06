@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Services-Repository/!svn/ver/60760/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/entity
+END
+Insurecovermaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/Services-Repository/!svn/ver/60240/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/entity/Insurecovermaster.java
+END
+CustomerDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/Services-Repository/!svn/ver/60680/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/entity/CustomerDetail.java
+END
+Rechargedetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/Services-Repository/!svn/ver/60667/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/entity/Rechargedetail.java
+END
+Packagemaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/Services-Repository/!svn/ver/60240/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/entity/Packagemaster.java
+END
+ClaimsDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/Services-Repository/!svn/ver/60760/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/entity/ClaimsDetail.java
+END
+SmsFollowupDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/Services-Repository/!svn/ver/60240/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/entity/SmsFollowupDetail.java
+END
+Mobilemaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/Services-Repository/!svn/ver/60760/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/entity/Mobilemaster.java
+END
+SystemProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/Services-Repository/!svn/ver/60309/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/entity/SystemProperty.java
+END
+MonthlyRechargeSummary.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/Services-Repository/!svn/ver/60760/FORTE/forte-integration-db/src/main/java/com/candela/forte/integration/db/entity/MonthlyRechargeSummary.java
+END
